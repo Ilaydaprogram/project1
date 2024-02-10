@@ -215,6 +215,82 @@ footer{
     color: #9a9a9b;
 }
 
+
+.courses-title{
+    color: #1A1A1A;
+    font-size: 70px;
+    margin: 60px 0;
+}
+
+.course-row{
+    display: flex;
+    justify-content: space-between ;
+    margin-bottom: 60px;
+} 
+
+.card-big{width: 540px;}
+.card-small{width: 360px;}
+
+.img-container{
+    height: 360px;
+    display: flex;
+    align-items: flex-end;
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.img-card-1{
+    background-image: url(img/card-1.png);
+}
+
+.img-card-2{
+    background-image: url(img/card-2.png);
+}
+
+.btn-time{
+    background-color: white;
+    border-radius: 5px;
+    color: #111;
+    margin-right: 8px;
+    padding: 6px 12px;
+}
+
+.btn-raiting{
+    background-color: #111;
+    color: white;
+    padding: 6px;
+    border-radius: 5px;
+    width: 50px;
+    height: 20px;
+}
+
+
+.info-container h4{
+    color: #8C8C8C;
+    font-size: 13px;
+    letter-spacing: 2px;
+    margin: 18px 0;
+}
+
+.info-container h2{
+    color: #1A1A1A;
+    font-size: 35px;
+    letter-spacing: 0.5px;
+    margin-bottom: 20px;
+}
+
+.info-container p{
+    color: #767676;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    margin-bottom: 20px;
+    line-height: 1.7;
+}
+
+
+
 @media (max-width: 1120px){
     .container{
         padding: 0 20px;
@@ -227,6 +303,9 @@ footer{
     }
     .card-right{
         margin-top: 60px;
+    }
+    .course-row{
+        flex-wrap: wrap;
     }
 }
 
